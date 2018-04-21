@@ -1,0 +1,265 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ h1, h2, h3, h4, h5, h6{
+   color: #00a6fc;
+ }
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+nav li{
+  width: 25%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.nav{
+  position: relative;
+  top: 720px;
+  background-color: #00a6fc !important;
+  border-bottom: 3px solid #26a69a;
+}
+.nav-container{
+  width: 90%;
+margin-left: auto;
+margin-right: auto; 
+}
+.pad{
+  padding: 3em;
+}
+nav::before{
+  border-bottom: 5px solid #000;
+  width: 100%
+}
+
+ .logo{
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  position: absolute;
+  right: 100px;
+  top: 0;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+ 
+}
+
+ .img-logo{
+  background-image: url("../img/logo.jpeg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  width: 180px;
+  height: 180px;
+  left: 10px
+
+}
+
+.slogan{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: rgba(0,87,98,.5);
+  position: absolute;
+  left: 290px;
+  top: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-slogan{
+  opacity: 1;
+  color: #fff;
+  padding: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+
+}
+.angel{
+  color: #e9ec18;
+  font-size: 4.86rem;
+}
+
+.form{
+  position: absolute;
+  top: 430px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#buscar input {
+  border: 1px solid #444;
+  background: #fff;
+  border-radius: 9px;
+  font-size: 1.4rem;
+  color: #00a6fc;
+  box-sizing: border-box;
+  padding: 12px 20px;
+
+
+}
+
+.btn {
+  height: 3em;
+  line-height: 3em;
+  background-color: #00a6fc;
+  border-radius: 9px;
+
+}
+
+::placeholder { 
+  color: #00a6fc; 
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+
+.select-wrapper span.caret {
+  color: initial;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  height: 30px;
+  margin: auto 0;
+  font-size: 25px;
+  line-height: 30px;
+  color: #00a6fc;
+  z-index: 3;
+  transform: rotate(-90deg)
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #00a6fc;
+}
+
+.slider .indicators .indicator-item{
+  display: none;
+}
+
+#slider-collie .row .col {
+  float: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 0rem !important;
+  min-height: 1px;
+}
+
+.slider .slides {
+  background-color: #ffffff;
+  margin: 0;
+  height: 400px;
+}
+
+.parallax-container {
+  min-height: 800px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.oc-contact{
+  position: relative;
+  background-image: url("../img/3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.oc-contact .contact{
+  position: absolute;
+  width: 600px;
+  height: auto;
+  padding: 2em;
+  background-color: rgba(0, 166, 252, 0.5);
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  margin-bottom: 40px;
+
+}
+
+#contact input {
+  border: 1px solid #ffffff;
+  border-radius: 9px;
+  padding: 12px 20px;
+  font-size: 1.4rem;
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+
+}
+#contact textarea {
+  border: 1px solid #ffffff;
+  border-radius: 9px;
+  font-size: 1.4rem;
+  color: rgb(255, 255, 255);
+
+}
+
+#contact .parallax-container {
+  min-height: 450px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+#contact  .parallax-container .section {
+  width: 100%;
+}
+
+.btn-flat{
+  background-color: transparent !important;
+  border: 2px solid #00a6fc !important;
+  border-radius: 50% !important;
+  color: #00a6fc;
+  font-size: 20px;
+}
+#contact ::placeholder{
+  color: #ffffff;
+  opacity: 1;
+}
+
+.btn-flat i{
+  font-size: 1.3em;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
