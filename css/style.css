@@ -5,6 +5,9 @@
  *
  * Made By MaterializeCSS.com
  */
+ body{
+  font-family: 'Josefin Sans', sans-serif;
+ }
 
  h1, h2, h3, h4, h5, h6{
    color: #00a6fc;
@@ -212,7 +215,7 @@ p {
 
 }
 
-#contact .parallax-container {
+/* #contact .parallax-container {
   min-height: 450px;
   line-height: 0;
   height: auto;
@@ -220,7 +223,7 @@ p {
 }
 #contact  .parallax-container .section {
   width: 100%;
-}
+} */
 
 .btn-flat{
   background-color: transparent !important;
@@ -237,6 +240,45 @@ p {
 .btn-flat i{
   font-size: 1.3em;
 }
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+
+.img1{
+  background-image: url("../img/1-9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.img3{
+  background-image: url("../img/1-8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.divider{
+  height: 20px;
+  overflow: hidden;
+  background-color: #00a6fc;
+  position: relative;
+  top: 710px;
+  width: 110%;
+  right: 50px;
+}
+
+
+
+
+
+
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
